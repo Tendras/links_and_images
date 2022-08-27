@@ -1,0 +1,37 @@
+h1 {
+  color: blueviolet;
+  display: inline;
+}
+
+h2 {
+  color: rgb(6, 121, 150);
+}
+
+h3 {
+  color: rgba(46, 202, 100, 0.5);
+}
+
+h4 {
+  color: hsl(50 80% 40%);
+}
+
+.mydiv {
+  background-color: rgb(7, 1, 117);
+}
+
+body {
+  background-color: aquamarine;
+  color: crimson;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-style: double;
+  border-width: 1cm;
+  border-color: antiquewhite;
+}
+
+li {
+  font-size: small;
+}
+
+img {
+  border-radius: 15%;
+}

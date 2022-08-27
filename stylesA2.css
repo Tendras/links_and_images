@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "Roboto-LightItalic";
+  src: url(./Styles/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: "extra-bold";
+  src: url(./Styles/Roboto-Bold.ttf);
+}
+
+h3 {
+  text-align: center;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.imgContainer img {
+  width: 75px;
+  height: 75px;
+  border: 3px solid #3882f6;
+  border-radius: 15%;
+}
+
+figcaption {
+  width: 75px;
+  font-size: 9px;
+  text-align: center;
+  color: #1f2937;
+}
+
+figure {
+  margin: 0px;
+}
+
+.firstSection {
+  background-color: #1f2937;
+  color: white;
+}
+
+.firstSection button {
+  margin: 0px;
+  margin-bottom: 35px;
+}
+
+.thirdSection {
+  background-color: #e5e7eb;
+  text-align: center;
+}
+
+.forthSection {
+  border: 1px solid #3882f6;
+  border-radius: 10%;
+  background-color: #3882f6;
+  color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+}
+
+#quote {
+  padding: 80px 80px 0px 80px;
+  font-size: 36px;
+  font-family: Roboto-LightItalic;
+  color: #1f2937;
+}
+
+#quoter {
+  text-align: right;
+  padding: 0px 100px 20px 20px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+div {
+  margin: 3% 8% 3% 8%;
+}
+
+.forthSection p {
+  margin-left: 30px;
+}
+
+button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #3882f6;
+  color: white;
+  border-color: white;
+  border-radius: 20%;
+  font-size: 10px;
+}
+
+footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#copyright {
+  font-size: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.headerSection {
+  display: flex;
+  margin: 0px;
+}
+
+.descriptionSection {
+  display: flex;
+}
+
+#headerLogo {
+  margin-left: 15%;
+  font-size: 15px;
+  margin-top: 43px;
+}
+
+a {
+  font-size: 10px;
+  margin: 10px;
+  margin-top: 20px;
+  color: white;
+}
+
+#HeroMain {
+  font-size: 48px;
+  color: #f9faf8;
+  font-family: extra-bold;
+  margin-bottom: 0px;
+  margin-top: 6px;
+}
+
+#subtext {
+  font-size: 12px;
+  color: white;
+  margin-top: 0px;
+}
+
+.firstSection img {
+  height: 170px;
+  margin-top: 48px;
+  margin-left: 5%;
+  opacity: 0.5;
+}
+
+.alignRight {
+  display: flex;
+  margin-left: 40%;
+}
